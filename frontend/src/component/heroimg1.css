@@ -1,0 +1,48 @@
+.hero-img-1 {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-img-1::before {
+    content: " ";
+    background-image: url("../img/anotherpage.avif");
+    background-position: center top;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero-1-heading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-1-heading h1 {
+    font-size: 3rem;
+}
+
+.hero-1-heading p {
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-width : 650px) {
+    .hero-1-heading h1 {
+        font-size: 2.3rem;
+    }
+
+    .hero-1-heading p {
+        font-size: 1.3rem;
+    }
+}

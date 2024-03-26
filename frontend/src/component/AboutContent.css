@@ -1,0 +1,155 @@
+.about-img-1 {
+    width: 50%;
+    height: 75vh;
+    position: relative;
+    border-radius: 5px;
+    margin: auto;
+
+}
+
+/* .about-img-2{
+   
+    height: 43vh;
+    position: absolute;
+    transform: translate(-80% , 20%);
+    
+    border-radius: 5px;
+} */
+.about-card-content {
+    /* border: 2px solid red; */
+    padding: 2rem;
+    display: flex;
+    column-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+/* .about-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.About-content {
+    /* border: 2px solid white; */
+    padding: 2rem 0rem;
+}
+
+.about-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    gap: 2rem;
+    /* border: 2px solid red; */
+    padding: 2rem;
+    width: 50%;
+}
+
+.about-right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .about-right:hover{
+    .about-img-2{
+        display: initial;
+        width: 30vw;
+        height: 43vh;
+        position: absolute;
+        transform: translate(0% , 0%);
+        transition: 1s;
+       
+        z-index: -1;
+        display: initial;  
+    }
+} */
+
+.about-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-link {
+    text-decoration: none;
+    margin: auto;
+}
+
+.about-btn {
+    /* width: 9vw; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.about-left h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.about-left p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.about-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+@media screen and (max-width : 1040px) {
+    .about-card-content {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    /* .about-img-1{
+        width: 80%;
+    }
+    
+    .about-img-2{
+        width: 80%;
+    } */
+    .about-img {
+        margin: auto;
+        width: 100%;
+    }
+
+    .about-card-content {
+        padding: 5rem 0rem;
+        /* border: 2px solid white; */
+    }
+
+    .about-img-1 {
+        width: 80%;
+        height: 100%;
+    }
+
+    /* .about-img-2{
+        width: 80%;
+        height: 30vh;
+        transform: translate(-80% , 20%);
+        
+    } */
+    .about-left {
+        /* border: 2px solid yellowgreen; */
+        width: 100%;
+    }
+
+    .about-right {
+        /* border: 2px solid red; */
+        width: 100%;
+        /* justify-content: left; */
+    }
+}
