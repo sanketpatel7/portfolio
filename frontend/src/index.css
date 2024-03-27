@@ -29,3 +29,10 @@ p {
   background-clip: content-box;
 
 }
+
+::selection {
+  background-color: #EF7F1A;
+  /* Background color of selected text */
+  color: #393185;
+  /* Text color of selected text */
+}
