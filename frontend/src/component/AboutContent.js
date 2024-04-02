@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Img from "../img/Coding workshop-pana.png";
 // import Imgg from "../img/Img-2.jpg";
-import SanketCv from "../img/Sanket CV.pdf";
+import SanketCv from "../img/sanket resume.pdf";
 import "./AboutContent.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -18,8 +18,8 @@ const AboutContent = () => {
           <div className="about-left">
             <h1>Who I AM ?</h1>
             <p>
-              Im a react font-end developer. I create responsive secure websites
-              for my clients
+              Im a react js font-end developer. I create responsive secure
+              websites for my clients
             </p>
             <div className="about-flex">
               <button className="btn1 about-btn">
