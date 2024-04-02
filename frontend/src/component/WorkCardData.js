@@ -5,19 +5,19 @@ import pro5 from "../img/project4.png";
 const WorkCardData = [
   {
     imgsrc: pro1,
-    title: "pretlovesbcs design",
+    title: "just for learning",
     text: "My task is Creat Home Page",
     view: "https://pretlovesbcs.co.uk/",
   },
   {
     imgsrc: pro3,
-    title: "spanishproperty design",
+    title: "just for learning",
     text: "My Task is Responsive",
     view: "https://spanishproperty.co.uk/",
   },
   {
     imgsrc: pro5,
-    title: "scaffoldingessex design",
+    title: "just for learning",
     text: "My Task is Create Portfolio Page",
     view: "https://www.scaffoldingessex.com/",
   },
