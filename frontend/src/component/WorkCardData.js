@@ -6,19 +6,19 @@ const WorkCardData = [
   {
     imgsrc: pro1,
     title: "just for learning",
-    text: "My task is Creat Home Page",
+    text: "this task is readymade",
     view: "https://pretlovesbcs.co.uk/",
   },
   {
     imgsrc: pro3,
     title: "just for learning",
-    text: "My Task is Responsive",
+    text: "this task is readymade",
     view: "https://spanishproperty.co.uk/",
   },
   {
     imgsrc: pro5,
     title: "just for learning",
-    text: "My Task is Create Portfolio Page",
+    text: "this task is readymade",
     view: "https://www.scaffoldingessex.com/",
   },
 ];
